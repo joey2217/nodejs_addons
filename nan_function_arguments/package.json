@@ -1,0 +1,18 @@
+{
+  "name": "nan_function_arguments",
+  "version": "1.0.0",
+  "description": "",
+  "gypfile": true,
+  "main": "addon.js",
+  "scripts": {
+    "test": "node addon.js",
+    "postinstall": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.17.0"
+  }
+}

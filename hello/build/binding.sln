@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-native", "hello-native.vcxproj", "{166E91B3-44F4-6720-9566-9D7D765F0A12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4} = {A1F6B8C1-C102-0A8B-FA20-7D8337F378B4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Github)", "..\Github", "{250214B4-3953-6752-ECE6-E0424363EAA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(nodejs_addons)", "..\Github\nodejs_addons", "{369497CF-DEEE-A817-D045-3F47593509D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(hello)", "..\Github\nodejs_addons\hello", "{987521C7-448A-3E4B-1397-2DD66E7408E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Github\nodejs_addons\hello\node_modules", "{9BD12795-0713-D2BD-F837-F72778B9844E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Github\nodejs_addons\hello\node_modules\node-addon-api", "{C278A064-16F7-097E-0919-99B620F9FA98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Github\nodejs_addons\hello\node_modules\node-addon-api\src", "{4B87FDC2-832D-E92C-0924-462E279F4CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{166E91B3-44F4-6720-9566-9D7D765F0A12}.Debug|x64.ActiveCfg = Debug|x64
+		{166E91B3-44F4-6720-9566-9D7D765F0A12}.Debug|x64.Build.0 = Debug|x64
+		{166E91B3-44F4-6720-9566-9D7D765F0A12}.Release|x64.ActiveCfg = Release|x64
+		{166E91B3-44F4-6720-9566-9D7D765F0A12}.Release|x64.Build.0 = Release|x64
+		{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4}.Debug|x64.ActiveCfg = Debug|x64
+		{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4}.Debug|x64.Build.0 = Debug|x64
+		{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4}.Release|x64.ActiveCfg = Release|x64
+		{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{369497CF-DEEE-A817-D045-3F47593509D9} = {250214B4-3953-6752-ECE6-E0424363EAA8}
+		{987521C7-448A-3E4B-1397-2DD66E7408E7} = {369497CF-DEEE-A817-D045-3F47593509D9}
+		{9BD12795-0713-D2BD-F837-F72778B9844E} = {987521C7-448A-3E4B-1397-2DD66E7408E7}
+		{C278A064-16F7-097E-0919-99B620F9FA98} = {9BD12795-0713-D2BD-F837-F72778B9844E}
+		{4B87FDC2-832D-E92C-0924-462E279F4CF0} = {C278A064-16F7-097E-0919-99B620F9FA98}
+		{A1F6B8C1-C102-0A8B-FA20-7D8337F378B4} = {4B87FDC2-832D-E92C-0924-462E279F4CF0}
+	EndGlobalSection
+EndGlobal

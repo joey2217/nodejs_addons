@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/nan_function_arguments/node_modules/nan",
+                "${workspaceFolder}/cube_sdk/node_modules/nan",
+                "${workspaceFolder}/cube_sdk/cube/dll",
+                "${workspaceFolder}/cube_sdk/cube/include/cube",
+                "${workspaceFolder}/cube_sdk/cube/include/cube",
+                "${workspaceFolder}/cube_sdk/cube/include/cube/base",
+                "${workspaceFolder}/cube_sdk/cube/lib",
+                "C:/Users/feiyu/AppData/Local/node-gyp/Cache/16.18.1/include/node"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
